@@ -3,7 +3,17 @@ body {
   height: 1600px;
 }
 
-a:visited {
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.top_section a {
+  color: white;
+  text-decoration: none;
+}
+
+.top_section a:visited {
   color: white;
   text-decoration: none;
 }
@@ -44,12 +54,20 @@ header {
 
 header .logo_main {
   display: flex;
+  justify-self: left;
   align-items: center;
+  width: 30%;
 }
 
 header .logo_main img {
   margin-left: 5px;
   size: 80%;
+}
+
+header .header_menu {
+  display: flex;
+  width: 40%;
+  justify-content: center;
 }
 
 header .header_menu button {
@@ -61,22 +79,40 @@ header .header_menu button {
 header .header_menu button:after {
   content: "";
   display: block;
-  width: 10px;
-  border-bottom: 1px solid white;
-  margin: 10px auto;
+  width: 5px;
+  margin-top: 3px;
+  border-bottom: 2px solid white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+header .header_menu button:hover:after {
+  transform: scaleX(1);
+}
+
+header .header_menu button:active {
+  content: "";
+  display: block;
+  width: 8px;
+  margin-top: 3px;
+  border-bottom: 2px solid white;
+  position: absolute;
 }
 
 .main_nav {
   display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
   font-family: inherit;
+  width: 30%;
   font-size: 18px;
 }
 
 .main_nav .be_host {
+  display: inherit;
   color: white;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
   align-items: center;
   padding: 0px 10px;
 }
