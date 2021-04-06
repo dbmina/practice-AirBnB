@@ -80,7 +80,7 @@ header .header_menu button:after {
   content: "";
   display: block;
   width: 5px;
-  margin-top: 3px;
+  margin: 3px auto;
   border-bottom: 2px solid white;
   transform: scaleX(0);
   transition: transform 0.3s ease;
@@ -142,12 +142,18 @@ header .header_menu button:active {
 
 /** 숙소 네비게이션 **/
 
+.intro form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .accomodation_search_form {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 75%;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 30px;
   position: relative;
   top: 30px;
   z-index: 2;
@@ -155,8 +161,47 @@ header .header_menu button:active {
 
 .accomodation_search_form button {
   text-align: left;
-  padding: 14px 24px;
+  padding: 13px 24px;
   background-color: transparent;
+}
+
+.accomodation_search_form .nav_last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accomodation_search_form .categories {
+  font-family: inherit;
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.accomodation_search_form .items {
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.top_section .accomodation_search_form .search_icon {
+  background-color: #ff385c;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  left: -10px;
+  height: 45px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.top_section .accomodation_search_form .search_icon:hover {
+  background-color: #e03f5d;
+}
+
+.search_icon i {
+  color: white;
 }
 
 /** 이미지 & 호스트에게 한마디**/
