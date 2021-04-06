@@ -1,0 +1,178 @@
+.sites{
+    display:flex;
+flex-direction: column;
+  width: 100%;
+
+}
+
+.travel_title{
+    display: flex;
+    justify-content: flex-start;
+    font-size:  40px;
+}
+.second-title{
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 70px;
+}
+.travel_site{
+    width:90%;
+    margin-left: 100px;
+}
+.first-row, .second-row{
+   display: flex;
+  
+   justify-content: space-between;
+    
+}
+.second-row{
+    margin-top: 20px;
+}
+.Seoul, .Incheon, .의정부, .daegu, .daejeon, .광주, .수원, .울산{
+ display:flex;
+
+}
+.icon{
+    border-radius: 10px;
+}
+.explanation{
+    margin-top: 13px;
+    margin-left: 20px;
+    width:200px;
+  
+   
+}
+.place{
+  
+    display: flex;
+width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+ 
+  
+}
+.middle{
+    display:inline-flexbox;
+    height: 200px;
+}
+
+.feed-header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+   justify-content: flex-start;
+  
+}
+
+.pic{
+    margin-top: 80px;
+    width: 100%;
+    height: 540px;
+    display: flex;
+   justify-content: center;
+   border-radius: 20px;
+}
+.letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.picture_top_letter1, .picture_top_letter2, .picture_top_letter3{
+    left: 100px;
+
+    font-size: 60px ;
+  
+    color: white;
+    display: flex;
+    position:relative;
+ 
+    z-index: 10;
+}
+ .picture_small_letter1, .picture_small_letter2{
+    left: 100px;
+
+    font-size: 20px ;
+  
+    color: white;
+    display: flex;
+    position:fixed;
+ 
+    z-index: 10;
+ }
+ .button{
+    left: 100px;
+
+    font-size: 20px ;
+  position: relative;
+    color: white;
+    display: flex;
+
+ 
+    z-index: 10;
+ }
+ .dist{
+     color:#222222;
+     font-weight: 13;
+    margin-top:0.5px;
+     
+ }
+ .city{
+     margin-top: 4px;
+    margin:0px;
+ }
+ .button{ background-color: white;
+
+    bottom: 630px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+   padding:20px;
+    color:black;
+    z-index: 2;
+}
+.semi{
+   margin-top: 0.5px;
+}
+
+.picture_top_letter1{
+    position: relative;
+    bottom: 500px;
+    
+
+}
+.picture_top_letter2{
+    position: relative;
+    bottom: 550px;
+    
+
+}
+.picture_top_letter3{
+    position: relative;
+    bottom: 600px;
+    
+
+}
+.picture_small_letter1{
+    position: relative;
+    bottom: 630px;
+    display: flex;
+}
+.picture_small_letter2{
+    position: relative;
+    bottom: 650px;
+    display: flex;
+}
+.letter{
+    left: 100px;
+
+    font-size: 30px ;
+  
+    color: white;
+    display: flex;
+    position:relative;
+
+    z-index: 10;
+
+}
