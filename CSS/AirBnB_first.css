@@ -223,8 +223,159 @@ header .header_menu button:active {
   font-size: 24px;
 }
 /* 여기까지가 평재's~~ */
+.middle{
+  
+}
+.title_container{
+  margin-top: 50px;
+  margin-left: 80px;
+
+}
+.title{
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 2em;
+}
+.first-row, .second-row{
+  display: flex;
+ 
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 100px;
+   
+}
+.icon{
+  border-radius: 10px;
+}
+.first-row{
+  margin-top: 20px;
+}
+.second-row{
+  margin-top: 20px;
+}
+.Seoul, .Incheon, .의정부, .daegu, .daejeon, .광주, .수원, .울산{
+  display:flex;
+
+ }
+ .city{
+   display: flex;
+   width: fit-content;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 2em;
+ }
+ .dist{
+  font-size: 19px;
+  font-weight: 450;
+ 
+ }
+ .explanation{
+  margin-top: 10px;
+  margin-left: 20px;
+  width:200px;
+
+ 
+}
+.place{
+  
+  display: flex;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-top: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+
+
+}
+.semi{
+  margin-top: 0.5px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 2em;
+}
+.share{
+  margin-left: 80px;
+  margin-right: 100px;
+
+ position:static;
+}
+.pic{
+  margin-top: 80px;
+  width: 100%;
+  
+  border-radius: 20px;
+}
+.picture_top_letter1{
+  position: relative;
+  bottom: 500px;
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 2em;
+  margin-left:100px;
+}
+.picture_top_letter2{
+  position: relative;
+  bottom: 550px;
+  font-size: 55px;
+  color: white;
+  font-weight: 700;
+  line-height: 2em;
+  margin-left:100px;
+
+}
+.picture_top_letter3{
+  position: relative;
+  bottom: 600px;
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 2em;
+  margin-left:100px;
+
+}
+.picture_small_letter1{
+  position: relative;
+  bottom: 600px;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2em;
+  margin-left:100px;
+}
+.picture_small_letter2{
+  position: relative;
+  bottom: 610px;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2em;
+  margin-left:100px;
+}
+
+.button{
+  background-color: white;
+
+
+  font-size: 20px ;
+
+  position: relative;
+  bottom: 580px;
+  display: flex;
+  margin-left: 100px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+   padding:20px;
+    color:black;
+    z-index: 2;
+}
 /* 여기서부터 lookaround_experience */
 .lookaround_experience {
+  margin-top: -400px;
   padding: 40px 80px;
 }
 
